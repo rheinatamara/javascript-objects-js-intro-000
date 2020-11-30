@@ -4,4 +4,4 @@ var playlist = {
 function updatePlaylist(playlist, artistName, songTitle){
   Object.assign(playlist, {artistName: 'songTitle'});
 }
-console.log(playlist, lilPeep, kiss);
+console.log updatePlaylist(playlist, lilPeep, kiss);
