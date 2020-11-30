@@ -6,6 +6,6 @@ function updatePlaylist(playlist, artistName, songTitle){
 }
 console.log (updatePlaylist(playlist, `Phil Ochs`, `Smile`));
 function removeFromPlaylist(playlist,artistName){
-  delete playlist.[artistName];
+  delete playlist.artistName;
 }
 console.log(removeFromPlaylist(playlist,'tameImpala'));
